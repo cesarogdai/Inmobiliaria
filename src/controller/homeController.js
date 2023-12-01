@@ -1,5 +1,6 @@
 let renderHomePage = (req, res) => {
-  res.render("home");
+  let products = { name: 0 };
+  res.render("home", products);
 };
 
 let getPosts = async (req, res) => {};
