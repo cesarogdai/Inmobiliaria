@@ -1,0 +1,111 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Contacto</title>
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />  {{> navbar}}
+  </head>
+  
+
+  <body>
+      <div class="main contactForm">
+          <div class="container mt-5">
+            <h2 class="headerNormal">Crear Publicación</h2>
+            <form id="contactForm" action="/submitContact" method="post">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label class="labelText" for="property_type">Estado de la Propiedad:</label>
+                        <select>
+                            <option value="bodega-comercial">Bodega comercial</option>
+                            <option value="bodega-industrial">Bodega industrial</option>
+                            <option value="casa">Casa</option>
+                            <option value="casa-con-uso-de-suelo">Casa con uso de suelo</option>
+                            <option value="casa-en-condominio">Casa en condominio</option>
+                            <option value="departamento">Departamento</option>
+                            <option value="edificio">Edificio</option>
+                            <option value="huerta">Huerta</option>
+                            <option value="local">Local</option>
+                            <option value="local-comercial">Local comercial</option>
+                            <option value="local-en-centro-comercial">Local en centro comercial</option>
+                            <option value="oficina">Oficina</option>
+                            <option value="otro">Otro</option>
+                            <option value="quinta">Quinta</option>
+                            <option value="rancho">Rancho</option>
+                            <option value="terreno">Terreno</option>
+                            <option value="terreno-comercial">Terreno comercial</option>
+                            <option value="villa">Villa</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="form-group">
+                        <label class="labelText centerText" for="price" name="price" id="price">Precio</label>
+                        <input type="number" class="form-control" id="price" name="price">                        </div>
+                    </div>
+                </div>
+            </div>
+               
+                <div class="form-group">
+                    <label class="labelText" for="description">Descripción</label>
+                    <input type="text" class="form-control" id="description" name="description" required>
+                </div>
+                <div class="form-group">
+                    <label class="labeltext" for="message">Mensaje:</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+      </div>
+   
+  </body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#contactForm").submit(function(e){
+            e.preventDefault();
+            let formData = {
+                name: $("#name").val(),
+                email: $("#email").val(),
+                message: $("#message").val()
+            };
+
+            $.ajax({
+                url: '/submitContact',
+                type: "POST",
+                data: formData,
+                success: function(res) {
+                    if(res.status === 'success') {
+                        Swal.fire({
+                            title: "Exito",
+                            text: 'El correo se ha enviado exitosamente',
+                            icon: "success",
+                            showCancelButton: false,
+                            allowOutsideClick:false,
+                            confirmButtonText: "Cerrar"
+                        }).then((result) => {
+                            if(result.isConfirmed) {
+                                window.location.href = 'http://localhost:8080/';
+                            }
+                        })
+                    }
+                    if(res.status === 'error') {
+                        Swal.fire({
+                            title: "Error",
+                            text: "No se ha podido enviar el correo",
+                            icon: "error"
+                        });
+                    }
+                }
+            })
+        })
+    });
+</script>

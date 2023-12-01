@@ -11,6 +11,7 @@ let initWebRoutes = (app) => {
   router.get("/admin", adminController.renderLogin);
   router.post("/adminLogin", adminController.handleLogin);
   router.get("/admin/dashboard", adminController.adminDashboard);
+  router.get("/uploadPost", adminController.uploadPost);
   return app.use("/", router);
 };
 module.exports = initWebRoutes;
