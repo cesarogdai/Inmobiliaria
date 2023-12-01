@@ -5,6 +5,9 @@ import initWebRoutes from "./routes/web";
 import adminController from "./controller/adminController";
 import bodyParser from "body-parser";
 import session from "express-session";
+
+const path = require("path");
+
 let app = express();
 app.use(
   session({
@@ -19,6 +22,7 @@ app.use(bodyParser.json());
 
 configViewEngine(app);
 initWebRoutes(app);
+app.use("/public", express.static(path.join(__dirname, "public")));
 
 let port = process.env.PORT || 8080;
 app.listen(port, () => console.log(`Project is working on ${port}`));

@@ -29,9 +29,18 @@ const adminDashboard = (req, res) => {
   }
 };
 
+const uploadPost = (req, res) => {
+  if (req.session.isAdmin) {
+    res.render("uploadPost");
+  } else {
+    res.redirect("/admin");
+  }
+};
+
 module.exports = {
   isAuthenticated: isAuthenticated,
   renderLogin: renderLogin,
   handleLogin: handleLogin,
   adminDashboard: adminDashboard,
+  uploadPost: uploadPost,
 };
