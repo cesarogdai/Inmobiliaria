@@ -9,176 +9,72 @@
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />  {{> navbar}}
+    />  {{> navbar_admin}}
   </head>
 
 <body class="main">
   <div class="container">
     <h2 class="headerNormal">Crear Publicación</h2>
-    <form id="contactForm" action="/createPost" method="post">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="form-group">
-            <label class="labelText" for="property_type">Tipo Propiedad:</label>
-            <select id="tipo_propiedad">
-                <option value="bodega-comercial">Bodega comercial</option>
-                <option value="bodega-industrial">Bodega industrial</option>
-                <option value="casa">Casa</option>
-                <option value="casa-con-uso-de-suelo">Casa con uso de suelo</option>
-                <option value="casa-en-condominio">Casa en condominio</option>
-                <option value="departamento">Departamento</option>
-                <option value="edificio">Edificio</option>
-                <option value="huerta">Huerta</option>
-                <option value="local">Local</option>
-                <option value="local-comercial">Local comercial</option>
-                <option value="local-en-centro-comercial">Local en centro comercial</option>
-                <option value="oficina">Oficina</option>
-                <option value="otro">Otro</option>
-                <option value="quinta">Quinta</option>
-                <option value="rancho">Rancho</option>
-                <option value="terreno">Terreno</option>
-                <option value="terreno-comercial">Terreno comercial</option>
-                <option value="villa">Villa</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="form-group">
-            <label class="labelText centerText" for="price" name="price" id="price_lbl">Precio</label>
-            <input type="number" class="form-control" id="price" name="price">
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="form-group">
-            <label class="labelText centerText" for="phone" name="phone" id="phone_lbl">Teléfono</label>
-            <input type="phone" class="form-control" id="phone" name="phone">
-          </div>
-        </div>
-      </div>
-
-      <div class="row" style="height: 100px;">
-        <div class="col-lg-6">
-          <div class="form-group">
-            <label class="labelText" for="description">Descripción</label>
-            <input type="text" class="form-control" id="description" name="description" required>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="form-group">
-            <label class="labelText" for="characteristicas">Caracteristicas</label>
-            <input type="text" class="form-control" id="caracteristicas" name="caracteristicas" required>
-          </div>
-        </div>
-      </div>
-
-
-      <!--SECOND ROW-->
-      <div class="row" style="height: 100px;">
-        <div class="col-lg-6">
-          <div class="form-group">
-            <!--<label class="labelText" for="description">Ubicación</label>
-            <input type="text" class="form-control" id="ubicacion" name="ubicacion" required>
-            -->
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="form-group">
-            <label class="labelText" for="codigo">Caracteristicas</label>
-            <input type="text" class="form-control" id="codigo" name="codigo" required>
-          </div>
-        </div>
-      </div>
-
-      <!--THIRD ROW-->
-      <div class="row" style="height: 100px;">
-        <div class="col-lg-6">
-          <div class="form-group">
-            <label class="labelText" for="description">Destacado</label>
-            <select id="destacado">
-                <option value="">DESTACADO</option>
-                <option value="1">SI</option>
-                <option value="0">NO</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="form-group">
-            <label class="labelText" for="codigo">Ubicación</label>
-            <input type="text" class="form-control" id="ubicacion" name="ubicacion" required>
-          </div>
-        </div>
-      </div>
-
-      <!--FOURTh ROW-->
-      <div class="row" style="height: 100px;">
-        <div class="col-lg-6">
-          <div class="form-group">
-            <label class="labelText" for="description">Estado</label>
-            <select id="estado_propiedad">
-                <option value="renta">Renta</option>
-                <option value="venta">Venta<option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-8">
-            <div class="form-group">
-                <label class="labelText" for="imagen">Imagen</label>
-                <input type="file" id="image" name="image" accept="image/*">
-            </div>
-               
-          </div>
-          <div class="col-lg-4">
-              <button class="btn btn-primary w-100" type="submit">Upload</button>
-          </div>
-      </div>
+    <form id="formPost" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*">
+        <!-- Additional inputs/selects -->
+        <input type="text" name="ubicacion" placeholder="Ubicación">
+        <textarea name="description" placeholder="Description"></textarea>
+        <select name="category">
+          <option value="category1">Category 1</option>
+          <option value="category2">Category 2</option>
+          <!-- Add more options as needed -->
+        </select>
+        <button type="submit" class="btn btn-primary">Upload</button>
     </form>
+
   </div>
 </body>
 
-
-
-  </body>
-  
-
-
 </html>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 <script>
-    $(document).ready(function(){
-        $("#contactForm").submit(function(e){
-            e.preventDefault();
-            let formData = $(this).serialize();
-            console.log("formData: ", formData);
-            $.ajax({
-                url: '/createPost',
-                type: "POST",
-                data: formData,
-                success: function(res) {    
-                    if(res.status === 'correct') {
-                        Swal.fire({
-                            title: "Exito",
-                            text: 'Se ha creado el producto',
-                            icon: "success",
-                            showCancelButton: false,
-                            allowOutsideClick:false,
-                            confirmButtonText: "Cerrar"
-                        }).then((result) => {
-                            if(result.isConfirmed) {
-                                window.location.href = 'http://localhost:8080/';
-                            }
-                        })
+  $(document).ready(function () {
+        $("#formPost").on('submit', function (e) {
+          e.preventDefault();
+          let formData = new FormData(this);
+          $.ajax({
+            url: "/createPost",
+            type: 'POST',
+            data:formData,
+            contentType: false,
+            processData: false,
+            success: function (res) {
+              console.log("response: ", res);
+              if(res.data === 'success') {
+                  Swal.fire({
+                    title: "Exito",
+                    text: 'Se ha creado el producto',
+                    icon: "success",
+                    showCancelButton: false,
+                    allowOutsideClick:false,
+                    confirmButtonText: "Cerrar"
+                    }).then((result) => {
+                      if(result.isConfirmed) {
+                        window.location.href = 'http://localhost:8080/';
+                        }
+                      })
                     }
-                    if(res.status === 'error') {
-                        Swal.fire({
-                            title: "Error",
-                            text: "No se ha podido crear el producto",
-                            icon: "error"
-                        });
-                    }
-                }
-            })
-        })
-    });
+              if(res.data === 'error') {
+                  Swal.fire({
+                    title: "Error",
+                    text: "No se ha podido crear la publicación",
+                    icon: "error"
+                    });
+                  }
+            },
+            error: function (err) {
+              console.error("error: ", err);
+              // Add your error handling logic
+            }
+          });
+        });
+      });
+
 </script>

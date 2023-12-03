@@ -13,19 +13,25 @@ const isAuthenticated = (req, res, next) => {
   res.redirect("/");
 };
 
-const renderLogin = (req, res) => {
-  res.render("admin");
+const renderLogin = async (req, res) => {
+  try {
+    const posts = await getPosts;
+    res.render("admin", {
+      posts: posts,
+    });
+  } catch (err) {
+    console.log("err", err);
+  }
 };
 
 const handleLogin = (req, res) => {
-  console.log("request_body: ", req.body);
   const { username, password } = req.body;
 
   if (username === "admin" && password === "123") {
     req.session.isAdmin = true;
     res.redirect("/admin/dashboard");
   } else {
-    res.render("login", { error: "Credenciales invalidas" });
+    res.render("admin", { error: "Credenciales invalidas" });
   }
 };
 
@@ -45,46 +51,73 @@ const uploadPost = (req, res) => {
   }
 };
 
-let createPost = async (req, res) => {
-  console.log("request_body: ", req.body);
-  const {
-    description,
-    price,
-    phone,
-    caracteristicas,
-    ubicacion,
-    codigo,
-    destacado,
-    tipo,
-    estado_propiedad,
-  } = req.body;
+const uploads_dir = path.join(__dirname, "../uploads");
 
-  // Assuming you have 'DBConnection' available for executing queries
+if (!fs.existsSync(uploads_dir)) {
+  fs.mkdirSync(uploads_dir);
+}
+
+const handleFileUpload = upload.single("image");
+
+const createPost = async (req, res) => {
   try {
-    // Insert the post data into the database
-    const insertResult = await insertProduct([
-      description,
-      price,
-      phone,
-      ubicacion,
-    ]);
+    const { description, ubicacion } = req.body;
+    console.log("req_files: ", req.body);
 
-    res.send({ status: "correct" });
-  } catch (error) {
-    console.error("Error creating post:", error);
-    res.send({ status: "error" });
+    // Use multer.any() to handle multiple file uploads
+    const uploadMiddleware = upload.any();
+
+    uploadMiddleware(req, res, async (err) => {
+      if (err) {
+        console.log("File upload error: ", err);
+        res.send({ error: "No se pudo cargar la imagen" });
+        return;
+      }
+
+      // Process other form fields
+      const { description, ubicacion } = req.body;
+      console.log("Description: ", description);
+      console.log("Ubicacion: ", ubicacion);
+
+      const { insertId } = await insertProduct([description, ubicacion]);
+
+      let imageFileName; // Declare it outside the loop
+
+      req.files.forEach((file) => {
+        const imageBuffer = file.buffer;
+        imageFileName = file.originalname; // Update its value inside the loop
+        const imagePath = path.join(
+          uploads_dir,
+          insertId.toString(),
+          imageFileName
+        );
+        fs.mkdirSync(path.join(uploads_dir, insertId.toString()), {
+          recursive: true,
+        });
+        fs.writeFileSync(imagePath, imageBuffer);
+      });
+
+      const imagePathInDB = `/uploads/${insertId.toString()}/${imageFileName}`;
+      await updateProductImage(insertId, imagePathInDB);
+
+      res.send({ data: "success" });
+    });
+  } catch (err) {
+    console.log("Error creating post: ", err);
+    res.send({ data: "error" });
   }
 };
 
 let insertProduct = async (values) => {
   return new Promise((resolve, reject) => {
     DBConnection.query(
-      `INSERT INTO posts ( description, price,phone,ubicacion
+      `INSERT INTO posts ( description, ubicacion
         )
-       VALUES (?, ?, ?, ?)`,
+       VALUES (?, ?)`,
       values,
       function (err, result) {
         if (err) {
+          console.log("error insertProduct: ", err);
           reject(err);
         } else {
           resolve(result);
@@ -92,6 +125,39 @@ let insertProduct = async (values) => {
       }
     );
   });
+};
+
+const updateProductImage = async (postId, imagePath) => {
+  return new Promise((resolve, reject) => {
+    DBConnection.query(
+      "update posts set image = ? where id_post = ?",
+      [imagePath, postId],
+      function (err, result) {
+        if (err) {
+          console.log("error updateProductImage: ", err);
+          reject(err);
+        } else {
+          resolve(result);
+        }
+      }
+    );
+  });
+};
+
+const getPosts = async (req, res) => {
+  try {
+    return new Promise((resolve, reject) => {
+      DBConnection.query("select * from posts", function (err, rows) {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(rows);
+        }
+      });
+    });
+  } catch (err) {
+    console.log("Error get posts: ", err);
+  }
 };
 
 module.exports = {

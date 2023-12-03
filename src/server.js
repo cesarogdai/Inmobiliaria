@@ -23,6 +23,7 @@ app.use(bodyParser.json());
 configViewEngine(app);
 initWebRoutes(app);
 app.use("/public", express.static(path.join(__dirname, "public")));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 let port = process.env.PORT || 8080;
 app.listen(port, () => console.log(`Project is working on ${port}`));
