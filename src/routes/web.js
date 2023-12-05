@@ -10,6 +10,7 @@ let router = express.Router();
 let initWebRoutes = (app) => {
   //MAIN PAGE
   router.get("/", homeController.renderHomePage);
+  router.get("/postInfo/:id", homeController.postInfo);
 
   //ADMIN PAGE
   router.get("/admin", adminController.renderLogin);

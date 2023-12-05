@@ -21,6 +21,20 @@ let configViewEngine = (app) => {
 
   //Admin navbar
   hbs.registerPartial("navbar_admin", navbar_admin);
+  hbs.registerHelper("stringify", function (obj) {
+    return JSON.stringify(obj);
+  });
+  hbs.registerHelper("parseJSON", function (obj) {
+    return JSON.parse(obj);
+  });
+
+  hbs.registerHelper("printProp", function (array, property) {
+    if (array && array.length > 0) {
+      return array.map((item) => item[property]).join(", "); // Join multiple values if needed
+    } else {
+      return ""; // Return an empty string if the array is empty or undefined
+    }
+  });
 };
 
 export default configViewEngine;

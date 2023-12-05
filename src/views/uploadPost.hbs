@@ -1,80 +1,165 @@
-
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario Contacto</title>
-    <link rel="stylesheet" href="/public/css/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />  {{> navbar_admin}}
-  </head>
-
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario Contacto</title>
+  <link rel="stylesheet" href="/public/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  {{> navbar_admin}}
+</head>
 <body class="main">
   <div class="container">
     <h2 class="headerNormal">Crear Publicación</h2>
     <form id="formPost" action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="image" accept="image/*">
-        <!-- Additional inputs/selects -->
-        <input type="text" name="ubicacion" placeholder="Ubicación">
-        <textarea name="description" placeholder="Description"></textarea>
-        <select name="category">
-          <option value="category1">Category 1</option>
-          <option value="category2">Category 2</option>
-          <!-- Add more options as needed -->
-        </select>
-        <button type="submit" class="btn btn-primary">Upload</button>
+      <div class="drop-area">
+        <input type="file" name="images" accept="image/*" multiple>
+        <p>Drag & Drop files here</p>
+      </div>
+
+      <!-- Additional inputs/selects -->
+      <input type="text" name="ubicacion" placeholder="Ubicación" id="ubicacion">
+      <textarea name="description" placeholder="Description" id="description"></textarea>
+      <select name="category">
+        <option value="category1">Category 1</option>
+        <option value="category2">Category 2</option>
+        <!-- Add more options as needed -->
+      </select>
+      <button type="submit" class="btn btn-primary">Upload</button>
     </form>
-
+    <div class="preview-area"></div>
   </div>
-</body>
 
-</html>
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script>
-  $(document).ready(function () {
-        $("#formPost").on('submit', function (e) {
-          e.preventDefault();
-          let formData = new FormData(this);
-          $.ajax({
-            url: "/createPost",
-            type: 'POST',
-            data:formData,
-            contentType: false,
-            processData: false,
-            success: function (res) {
-              console.log("response: ", res);
-              if(res.data === 'success') {
-                  Swal.fire({
-                    title: "Exito",
-                    text: 'Se ha creado el producto',
-                    icon: "success",
-                    showCancelButton: false,
-                    allowOutsideClick:false,
-                    confirmButtonText: "Cerrar"
-                    }).then((result) => {
-                      if(result.isConfirmed) {
-                        window.location.href = 'http://localhost:8080/';
-                        }
-                      })
-                    }
-              if(res.data === 'error') {
-                  Swal.fire({
-                    title: "Error",
-                    text: "No se ha podido crear la publicación",
-                    icon: "error"
-                    });
-                  }
-            },
-            error: function (err) {
-              console.error("error: ", err);
-              // Add your error handling logic
-            }
-          });
-        });
-      });
+  document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('formPost');
+    const fileInput = document.querySelector('input[name="images"]');
+    const dropArea = document.querySelector('.drop-area');
+    const previewArea = document.querySelector('.preview-area');
+    const loadedImages = [];
 
+    // Prevent the default behavior for drag-and-drop events
+    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+      form.addEventListener(eventName, preventDefaults, false);
+      document.body.addEventListener(eventName, preventDefaults, false);
+    });
+
+    function preventDefaults(e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+
+    // Highlight the drop area when dragging a file over it
+    ['dragenter', 'dragover'].forEach(eventName => {
+      form.addEventListener(eventName, () => {
+        form.classList.add('highlight');
+        dropArea.classList.add('highlight');
+      }, false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      form.addEventListener(eventName, () => {
+        form.classList.remove('highlight');
+        dropArea.classList.remove('highlight');
+      }, false);
+    });
+
+    // Handle the dropped files
+    form.addEventListener('drop', handleDrop, false);
+
+    function handleDrop(e) {
+      e.preventDefault();
+      form.classList.remove('highlight');
+      dropArea.classList.remove('highlight');
+
+      const dt = e.dataTransfer;
+      const files = dt.files;
+
+      handleFiles(files);
+    }
+
+    // Handle the selected files
+    fileInput.addEventListener('change', function () {
+      const files = this.files;
+
+      handleFiles(files);
+    });
+
+    function handleFiles(files) {
+      // Loop through selected files and display previews
+      for (const file of files) {
+        const reader = new FileReader();
+
+        reader.onload = function (e) {
+          const img = new Image();
+          img.src = e.target.result;
+          img.alt = file.name;
+
+          // Set the desired height and width
+          img.style.height = '100px';
+          img.style.width = '100px';
+          img.style.marginLeft = '10px';
+
+          previewArea.appendChild(img);
+          loadedImages.push(file);
+        };
+
+        reader.readAsDataURL(file);
+      }
+    }
+
+    $("#formPost").on('submit', function (e) {
+      e.preventDefault();
+
+      // Collect form data
+      const formData = new FormData();
+      formData.append("description", $("#description").val());
+      formData.append("ubicacion", $("#ubicacion").val());
+      
+
+      for (const file of loadedImages) {
+        formData.append('images', file);
+      }
+
+      $.ajax({
+        url: "/createPost",
+        type: 'POST',
+        data: formData,
+        contentType: false,
+        processData: false,
+        success: function (res) {
+          if (res.data === 'success') {
+            Swal.fire({
+              title: "Exito",
+              text: 'Se ha creado el producto',
+              icon: "success",
+              showCancelButton: false,
+              allowOutsideClick: false,
+              confirmButtonText: "Cerrar"
+            }).then((result) => {
+              if (result.isConfirmed) {
+                window.location.href = 'http://localhost:8080/admin/dashboard';
+              }
+            });
+          }
+          if (res.data === 'error') {
+            Swal.fire({
+              title: "Error",
+              text: "No se ha podido crear la publicación",
+              icon: "error"
+            });
+          }
+        },
+        error: function (err) {
+          console.error("error: ", err);
+        }
+      })
+    });
+
+  });
 </script>
+
+</body>
+</html>

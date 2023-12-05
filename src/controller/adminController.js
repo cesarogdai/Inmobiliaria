@@ -63,8 +63,6 @@ const createPost = async (req, res) => {
   try {
     const { description, ubicacion } = req.body;
     console.log("req_files: ", req.body);
-
-    // Use multer.any() to handle multiple file uploads
     const uploadMiddleware = upload.any();
 
     uploadMiddleware(req, res, async (err) => {
@@ -82,6 +80,7 @@ const createPost = async (req, res) => {
       const { insertId } = await insertProduct([description, ubicacion]);
 
       let imageFileName; // Declare it outside the loop
+      console.log("req.files: ", req.files);
 
       req.files.forEach((file) => {
         const imageBuffer = file.buffer;
@@ -95,8 +94,8 @@ const createPost = async (req, res) => {
           recursive: true,
         });
         fs.writeFileSync(imagePath, imageBuffer);
+        console.log("imageFileName: ", imageFileName);
       });
-
       const imagePathInDB = `/uploads/${insertId.toString()}/${imageFileName}`;
       await updateProductImage(insertId, imagePathInDB);
 
