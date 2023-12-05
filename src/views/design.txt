@@ -1,0 +1,540 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="TORRE MÉDICA Consultorios en pre-venta en AP Medical Center. Torre médica con locales y consultorios en la Ciudad de Tuxtla Gutiérrez. Torre AP Center cuenta con una propuesta de funcionalidad mixt..."/>
+  <meta name="keywords" content=""/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>OFICINA consultorio Santa Elena, Tuxtla Gutiérrez.</title>
+  <meta name="title" content="OFICINA consultorio Santa Elena, Tuxtla Gutiérrez."/>
+  <meta content="https://www.kwreal.mx/property/oficina-consultorio-santa-elena-tuxtla-gutierrez" property="og:url"></meta><meta content="https://www.kwreal.mx/property/oficina-consultorio-santa-elena-tuxtla-gutierrez" itemprop="url"></meta><meta content="OFICINA consultorio Santa Elena, Tuxtla Gutiérrez." property="og:title"></meta><meta content="OFICINA consultorio Santa Elena, Tuxtla Gutiérrez." itemprop="name"></meta><meta content="TORRE MÉDICA Consultorios en pre-venta en AP Medical Center. Torre médica con locales y consultorios en la Ciudad de Tuxtla Gutiérrez. Torre AP Center cuenta con una propuesta de funcionalidad mixt..." property="og:description"></meta><meta content="TORRE MÉDICA Consultorios en pre-venta en AP Medical Center. Torre médica con locales y consultorios en la Ciudad de Tuxtla Gutiérrez. Torre AP Center cuenta con una propuesta de funcionalidad mixt..." itemprop="description"></meta><meta content="website" property="og:type"></meta><meta content="summary_large_image" name="twitter:card"></meta><meta content="@easybroker" name="twitter:site"></meta><meta content="@easybroker" name="twitter:creator"></meta><meta content="OFICINA consultorio Santa Elena, Tuxtla Gutiérrez." name="twitter:title"></meta><meta content="TORRE MÉDICA Consultorios en pre-venta en AP Medical Center. Torre médica con locales y consultorios en la Ciudad de Tuxtla Gutiérrez. Torre AP Center cuenta con una propuesta de funcionalidad mixt..." name="twitter:description"></meta><meta content="http://assets.easybroker.com/property_images/2897243/45970391/medium_EB-KC7243.jpeg" itemprop="image" property="og:image"></meta><meta content="https://assets.easybroker.com/property_images/2897243/45970391/medium_EB-KC7243.jpeg" itemprop="image" property="og:image:secure_url"></meta><meta content="450" property="og:image:width"></meta><meta content="300" property="og:image:height"></meta><meta content="https://assets.easybroker.com/property_images/2897243/45970391/medium_EB-KC7243.jpeg" name="twitter:image"></meta>
+<link rel="stylesheet" media="screen" href="https://cdn.easybroker.com/assets/agent_websites-a13fe02d61fe0891ba136539ecabb8544a16d62ac2235441a82bdb5a264b8c27.css" />
+<script src="https://cdn.easybroker.com/assets/agent_websites-b6d55e6b2d1db163c79f31bad4e900e7b29096f997cf9de5a10573a6fbfb90c6.js"></script>
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-210878654-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', "UA-210878654-1");
+  </script>
+
+
+  <noscript>
+    <img height="1"
+         width="1"
+         style="display:none"
+         src="https://www.facebook.com/tr?id=767425977707477&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <link rel="stylesheet" media="screen" href="https://cdn.easybroker.com/themes/merida/stylesheets/bootstrap.css?version=1697828405" />
+  <link rel="stylesheet" media="screen" href="https://cdn.easybroker.com/themes/merida/stylesheets/style.css?version=1697828405" />
+  <link rel="stylesheet" media="screen" href="https://cdn.easybroker.com/themes/merida/stylesheets/styles-palette-2.css?version=1697828405" />
+  <link rel="stylesheet" media="screen" href="https://cdn.easybroker.com/themes/merida/stylesheets/responsive.css?version=1697828405" />
+  <link rel="stylesheet" media="screen" href="https://cdn.easybroker.com/themes/merida/stylesheets/custom-select.css?version=1697828405" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11415216041">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11415216041');
+</script>
+
+<style>
+.pre-footer, .section-head, .property-listing .btn:hover, .property-listing .btn:active, .applied-filters ul li a, .btn:hover, .input-button:hover, .btn, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus, .input-button, .pagination ul li.currentpage
+
+#main_menu .navbar-nav>.active>a, #main_menu .navbar-nav>.active>a, #main_menu .navbar-nav>.active>a:hover
+
+.thumbnail .price, .property-listing .price, .map-container .location {
+    background: #b50101;
+}
+
+.btn-default:active, .btn-default:active, .btn, .input-button {
+    border-color: #b50101;
+}
+
+.welcome .user-content, .btn-default:hover, .btn-default:active, .btn-default:active, .btn, .input-button {
+    border-color: #b50101;
+}
+
+</style>
+
+<link rel="shortcut icon" href="https://assets.easybroker.com/organization_files/48793/favicon-32x32.png" /><link rel="apple-touch-icon" href="https://assets.easybroker.com/organization_files/48793/favicon-32x32.png" />
+
+
+  <link href='https://fonts.googleapis.com/css?family=Rubik:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="/themes/merida/javascripts/respond.js"></script>
+  <script type="text/javascript" src="/themes/merida/javascripts/scripts.js"></script>
+  <script type="text/javascript" src="/themes/merida/javascripts/html5shiv.min.js"></script>
+  <script src="https://kit.fontawesome.com/cd0241153e.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</head>
+
+  <body id="property" class="big-head">
+      <chat-nowo channel-id=" 11003-003"></chat-nowo>
+
+    <div id="hero" class="section">
+
+
+      <div class="user-image">
+        <div class='user-content'>
+          <img src="/themes/merida/built_in_images/img-merida.png" id="hero_image" />
+        </div>
+      </div>
+    </div>
+    <div class="section-head">
+  <div class="container">
+    <div class="name row">
+      <div class="col-sm-8">
+        <h1 class="title">OFICINA consultorio Santa Elena, Tuxtla Gutiérrez.</h1>
+<h2 class="location">
+    <a href="/properties/mexico/chiapas/tuxtla-gutierrez?ln=74520">Santa Elena</a>, <a href="/properties/mexico/chiapas/tuxtla-gutierrez">Tuxtla Gutiérrez</a>, <a href="/properties/mexico/chiapas">Chiapas</a></h2>
+
+      </div>
+      <div class="col-sm-4">
+        <div id="prices">
+    <ul>
+          <li class="price-type">
+              <span class="listing-type-price">
+                $1,634,000
+              </span>
+            <small class="listing-type">En Venta</small>
+          </li>
+  </ul>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+          <div id="gallery">
+      <div class="royal-image-slideshow royalSlider rsUni">
+      <img class="rsImg" alt="1 de 3" data-rsbigimg="https://assets.easybroker.com/property_images/2897243/45970391/EB-KC7243.jpeg?version=1649359321" data-rsTmb="https://assets.easybroker.com/property_images/2897243/45970391/medium_EB-KC7243.jpeg?version=1649359321" src="https://assets.easybroker.com/property_images/2897243/45970391/EB-KC7243.jpeg?version=1649359321" />
+      <img class="rsImg" alt="2 de 3" data-rsbigimg="https://assets.easybroker.com/property_images/2897243/45970392/EB-KC7243.jpeg?version=1649359321" data-rsTmb="https://assets.easybroker.com/property_images/2897243/45970392/medium_EB-KC7243.jpeg?version=1649359321" src="https://assets.easybroker.com/property_images/2897243/45970392/EB-KC7243.jpeg?version=1649359321" />
+      <img class="rsImg" alt="3 de 3" data-rsbigimg="https://assets.easybroker.com/property_images/2897243/45970408/EB-KC7243.jpeg?version=1649359321" data-rsTmb="https://assets.easybroker.com/property_images/2897243/45970408/medium_EB-KC7243.jpeg?version=1649359321" src="https://assets.easybroker.com/property_images/2897243/45970408/EB-KC7243.jpeg?version=1649359321" />
+  </div>
+
+  </div>
+
+        <a href="#" class="hidden btn btn-partners btn-primary btn-default btn-block btn-lg" target="_blank"><img style="margin-right: 10px;" src="/themes/merida/images/btn-partner-img.png" />Ver Tour Virtual</a>
+          <div id="main_features">
+    <ul>
+        <li>
+          <span>$1,634,000</span>
+          <small>
+            En Venta
+          </small>
+        </li>
+      
+      <li><i class="fa fa-bath"></i><small>1 medio baño </small></li>
+        <li>
+          38.2 m²
+          <small>
+            de construcción
+          </small>
+        </li>
+        <li>
+          38.2 m²
+          <small>
+            de terreno
+          </small>
+        </li>
+
+    <li><i class="fa fa-car"></i><small>1 Estacionamientos</small></li>
+    </ul>
+  </div>
+
+        <div class="property-info">
+          <div id="summary" class="summary-section">
+  <div class="summary-title">
+    <h4>Detalles</h4>
+  </div>
+  <ul>
+    <li><span>Tipo:</span> <strong>Oficina</strong></li><li><span>ID:</span> <strong>EB-KC7243</strong></li><li><span>Antigüedad:</span> <strong>En construcción</strong></li><li><span>Medios baños:</span> <strong>1</strong></li><li><span>Piso:</span> <strong>5</strong></li>
+  </ul>
+</div>
+
+          <div id="description" class="summary-section">
+  <div class="summary-title">
+    <h4>Descripción</h4>
+  </div>
+  <div class="info">
+    TORRE MÉDICA <br/><br/>Consultorios en pre-venta en AP Medical Center.<br/>Torre médica con locales y consultorios en la Ciudad de Tuxtla Gutiérrez. <br/><br/>Torre AP Center cuenta con una propuesta de funcionalidad mixta, con el objetivo de brindar servicios médicos, hospitalarios y comerciales dedicados al mejoramiento de la salud en diversas especialidades del campo médico.<br/><br/>Ubicado en el desarrollo comercial con acceso desde dos vialidades principales; Boulevard Belisario Domínguez y el Libramiento Sur.<br/><br/>La Torre AP Center, cuenta en su totalidad con 1,611 m2, de los cuales se integran de una planta baja y 6 niveles, disponiendo de los servicios necesarios para que cada espacio sea 100% flexible, seguro y adaptable en cuanto a la comodidad, seguridad e higiene de todas las áreas e instalaciones.<br/><br/>4 niveles exclusivos de consultorios médicos, de los cuales en cada nivel se integran por 25 consultorios con 7 tipos diferentes.<br/><br/>Cada nivel cuenta con:<br/>Recepción<br/>Área de espera<br/>Módulo de baños<br/>Central de enfermeras <br/>Dos elevadores<br/>Sistema contra incendios<br/>Barra de agua y café<br/>Seguridad 24/7<br/>Servicio de limpieza<br/>Área de niños<br/>Estacionamiento<br/><br/>Cada consultorio se complementa por: Área<br/>de consulta, área de exploración, recepción,<br/>sala de espera y baño.<br/>Precios para: 1er, 2do, 3er piso. <br/><br/>* Precio sujeto a cambio sin previo aviso. Consulta disponibilidad y vigencia.<br/>* Los precios no incluyen gastos notariales, de avalúos o montos variables por concepto del crédito.<br/>* Buzón de Quejas y sugerencias al correo kwreal@kwmexico.mx<br/>* Domicilio: BLVD BELISARIO DGUEZ 2950, esquina con Boulevard 28 de agosto. 29047 Tuxtla Gutiérrez, Chiapas, México.<br/>* Horario de atención: 9:00 a.m a 5:00 p.m. de lunes a viernes.<br/>*consulta nuestro aviso de privacidad al www.kwreal.mx<br/>¿Quieres conocerlos? ¡Agenda una cita!
+  </div>
+</div>
+
+            <div class="amenities summary-section">
+    <div class="summary-title">
+      <h4>Características</h4>
+    </div>
+    <div class="info row">
+        <div class="col-md-6">
+          <ul>
+              <li>Facilidad para estacionarse</li>
+              <li>Accesibilidad para adultos mayores</li>
+              <li>Accesibilidad para personas con discapacidad</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul>
+              <li>Aire acondicionado</li>
+              <li>Elevador</li>
+              <li>Seguridad 12 horas</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+
+          
+        </div>
+        <div id="video" class="summary-section">
+</div>
+
+        <div id="virtual_tour">
+</div>
+
+        <div class="visible-xs">
+            <div class="map-container">
+    <div class="container">
+      <div class="location">
+        <p>Ubicación</p>
+        <h4>Santa Elena, Tuxtla Gutiérrez, Chiapas</h4>
+      </div>
+    </div>
+    <div data-lazy-iframe-url="https://www.google.com/maps/embed/v1/place?key=AIzaSyBDhRiVXTnSWRjUhgGZTbj09HpmXUxTeBs&amp;q=16.7526186,-93.1408022" data-trigger="observer"></div>
+  </div>
+
+        </div>
+          <button id="contact-button" type="button" class="btn btn-primary btn-lg d-block d-lg-none btn-contact mb-2" data-toggle="modal" data-target="#contactModal">
+            <div class='user-content'>Contáctanos</div>
+          </button>
+      </div>
+      <div class="col-md-4 contact hidden-xs">
+        <div class="affix-elements">
+          <div class="form-wrapper">
+            <div id="contact_form_wrapper">
+              <div class="info-box text-center">
+                <div class='user-content'><h4>Contáctanos</h4></div>
+                <div class="agent text-center">
+      <img alt="KW REAL" title="KW REAL" src="https://assets.easybroker.com/organization_logos/48793/f8bea5ea-09c3-42f0-b20c-276cc1a4f049__scaled_.jfif" />
+  <div class="agent-info">
+
+      <h4 class="agent-name">KW REAL</h4>
+      <ul class="list-unstyled">
+        <li class="phone"><a href="tel:9615434022">9615434022</a></li>
+      </ul>
+  </div>
+</div>
+
+              </div>
+              <div id="confirmation_container" class="hide"></div>
+<div id="contact_form" class="form">
+  <a id="contact_form_anchor" name="contact_form"></a>
+  
+  <form action="/create_property_request" accept-charset="UTF-8" data-remote="true" method="post"><input type="hidden" name="authenticity_token" value="3_HwIZo0RWNsvLm3EfZA3hJ-R4wyu8bAWUxp8zn2VP5i0Zc6-ArMx7L8Qm26GAj7jnFvcnZZiPbDUBhZA_559A" autocomplete="off" />
+    <input type="hidden" name="lang" id="lang" value="es" autocomplete="off" />
+    <input value="" autocomplete="off" type="hidden" name="contact_request[form_code]" id="contact_request_form_code" />
+    <input autocomplete="off" type="hidden" value="48793" name="contact_request[organization_id]" id="contact_request_organization_id" />
+    <input value="www.kwreal.mx" autocomplete="off" type="hidden" name="contact_request[source]" id="contact_request_source" />
+    <input autocomplete="off" type="hidden" value="EB-KC7243" name="contact_request[property_id]" id="contact_request_property_id" />
+    <div class="form-group">
+      <input class="form-control" placeholder="Tu nombre" type="text" name="contact_request[name]" id="contact_request_name" />
+    </div>
+    <div class="form-group">
+      <input class="form-control" placeholder="Email" type="text" name="contact_request[email]" id="contact_request_email" />
+    </div>
+    <div class="form-group">
+      <input class="form-control" placeholder="Número de teléfono" type="text" name="contact_request[phone]" id="contact_request_phone" />
+    </div>
+    <div class="form-group">
+      <textarea rows="4" class="form-control" name="contact_request[message]" id="contact_request_message">
+Me interesa mucho esta propiedad y quiero recibir más información.
+¡Gracias!</textarea>    </div>
+    <div class="form-group">
+      <input type="submit" name="commit" value="Enviar" id="submit_button" data-submit-with-text="Enviando..." class="btn submit btn-primary btn-lg btn-block" autocomplete="off" />
+    </div>
+</form></div>  <img style="display: none;" alt="EB-KC7243" src="https://www.easybroker.com/track/2897243.gif?source=www.kwreal.mx" />
+
+            </div>
+          </div>
+          <a target="_blank" class="print-property" href="/print-property?slug=oficina-consultorio-santa-elena-tuxtla-gutierrez"><img alt="print" src="https://cdn.easybroker.com/assets/agent/printer-0a0b4e23faf1f6fdecceeb8fec7d289293e33e2f85bc115d855d69877bcb2d3a.png" /><span class="print-link-text">Imprimir propiedad</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hidden-xs">
+    <div class="map-container">
+    <div class="container">
+      <div class="location">
+        <p>Ubicación</p>
+        <h4>Santa Elena, Tuxtla Gutiérrez, Chiapas</h4>
+      </div>
+    </div>
+    <div data-lazy-iframe-url="https://www.google.com/maps/embed/v1/place?key=AIzaSyBDhRiVXTnSWRjUhgGZTbj09HpmXUxTeBs&amp;q=16.7526186,-93.1408022" data-trigger="observer"></div>
+  </div>
+
+</div>
+  <h2 class="text-center content-title hidden-xs">Propiedades destacadas</h2>
+<div class="featured-properties text-center content hidden-xs">
+  <div class="container">
+    <div class="title">
+      <h3>Propiedades destacadas</h3>
+      <span class="darker-bg"></span>
+    </div>
+    <!-- FEATURED BOOTSTRAP CAROUSEL -->
+      <div id="featured_properties" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#featured_properties" data-slide-to="0" class="active"></li>
+          <li data-target="#featured_properties" data-slide-to="1"></li>
+          <li data-target="#featured_properties" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                    <div class="property-1">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Renta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/locales-en-renta-en-plaza-comercial-en-el-parque-central-de-ocozocuautla-chis-ocozocoautla-de-espinosa-centro-local-en-centro-comercial"><img src="https://assets.easybroker.com/property_images/2209492/48236244/medium_EB-HL9492.jpeg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Ocozocoautla de Espinosa Centro, Ocozocoautla de Espinosa</p>
+      <p>Local en centro comercial</p>
+      <h3>$160 por m²</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/locales-en-renta-en-plaza-comercial-en-el-parque-central-de-ocozocuautla-chis-ocozocoautla-de-espinosa-centro-local-en-centro-comercial">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                    <div class="property-2">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Renta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/consultorio-en-renta-en-plaza-visana-local-b3-planta-alta"><img src="https://assets.easybroker.com/property_images/3299151/53144690/medium_EB-LQ9151.jpg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Las Torres, Tuxtla Gutiérrez</p>
+      <p>Local comercial</p>
+      <h3>$7,500</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/consultorio-en-renta-en-plaza-visana-local-b3-planta-alta">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                    <div class="property-3">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Venta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/oficina-santa-elena-tuxtla-gutierrez-santa-elena-tuxtla-gutierrez"><img src="https://assets.easybroker.com/property_images/2889466/45835425/medium_EB-KB9466.jpeg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Santa Elena, Tuxtla Gutiérrez</p>
+      <p>Oficina, 1 baño</p>
+      <h3>$2,118,610</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/oficina-santa-elena-tuxtla-gutierrez-santa-elena-tuxtla-gutierrez">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                </div>
+              </div>
+              <div class="item ">
+                <div class="row">
+                    <div class="property-1">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Renta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/renta-de-local-comercial-b-6-en-plaza-visana-las-torres"><img src="https://assets.easybroker.com/property_images/1554205/52744578/medium_EB-EY4205.jpg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Las Torres, Tuxtla Gutiérrez</p>
+      <p>Local comercial</p>
+      <h3>$7,500</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/renta-de-local-comercial-b-6-en-plaza-visana-las-torres">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                    <div class="property-2">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Venta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/edificios-con-oficinas-y-bonba-de-gasolina"><img src="https://assets.easybroker.com/property_images/3257459/52251462/medium_EB-LM7459.jpeg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Los Llanes, Tapachula</p>
+      <p>Local en centro comercial, 5 baños</p>
+      <h3>$10,002,900</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/edificios-con-oficinas-y-bonba-de-gasolina">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                    <div class="property-3">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Venta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/consultorio-medico-en-venta-en-grupo-medico-arboledas-sobre-la-16-poniente"><img src="https://assets.easybroker.com/property_images/2049328/31428823/medium_EB-GV9328.jpg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Las Arboledas, Tuxtla Gutiérrez</p>
+      <p>Local comercial, 1 baño</p>
+      <h3>$2,500,000</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/consultorio-medico-en-venta-en-grupo-medico-arboledas-sobre-la-16-poniente">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                </div>
+              </div>
+              <div class="item ">
+                <div class="row">
+                    <div class="property-1">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Venta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/oficina-santa-elena-tuxtla-gutierrez-0d25a55a-1536-422b-8477-3cc012f10609"><img src="https://assets.easybroker.com/property_images/2897290/45971251/medium_EB-KC7290.jpeg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Santa Elena, Tuxtla Gutiérrez</p>
+      <p>Oficina</p>
+      <h3>$1,236,000</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/oficina-santa-elena-tuxtla-gutierrez-0d25a55a-1536-422b-8477-3cc012f10609">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                    <div class="property-2">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Renta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/renta-de-local-comercial-b-5-en-plaza-visana-las-torres"><img src="https://assets.easybroker.com/property_images/1554204/52751364/medium_EB-EY4204.jpg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Las Torres, Tuxtla Gutiérrez</p>
+      <p>Local comercial</p>
+      <h3>$7,500</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/renta-de-local-comercial-b-5-en-plaza-visana-las-torres">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                    <div class="property-3">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Venta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/oficina-santa-elena-tuxtla-gutierrez-santa-elena"><img src="https://assets.easybroker.com/property_images/2889452/45835157/medium_EB-KB9452.jpeg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Santa Elena, Tuxtla Gutiérrez</p>
+      <p>Oficina, 1 baño</p>
+      <h3>$2,434,000</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/oficina-santa-elena-tuxtla-gutierrez-santa-elena">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                </div>
+              </div>
+              <div class="item ">
+                <div class="row">
+                    <div class="property-1">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Renta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/oficina-en-renta-en-la-col-el-mirador"><img src="https://assets.easybroker.com/property_images/3138338/51886314/medium_EB-LA8338.jpeg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">El Mirador, Tuxtla Gutiérrez</p>
+      <p>Oficina</p>
+      <h3>$15,000</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/oficina-en-renta-en-la-col-el-mirador">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                    <div class="property-2">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Renta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/renta-de-oficinas-o-consultorios-medicos-sobre-9na-sur"><img src="https://assets.easybroker.com/property_images/3289401/52964183/medium_EB-LP9401.jpeg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Tuxtla Gutiérrez Centro, Tuxtla Gutiérrez</p>
+      <p>Oficina, 4 baños</p>
+      <h3>$3,500</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/renta-de-oficinas-o-consultorios-medicos-sobre-9na-sur">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                    <div class="property-3">
+                      <div class="col-sm-4">
+  <div class="thumbnail">
+    <div class="type darkest-bg">
+      <span>Renta</span>
+    </div>
+    <div class="title-image"><a href="https://www.kwreal.mx/property/renta-de-consultorios-u-oficinas-frente-al-hospital-pascacio-gamboa"><img src="https://assets.easybroker.com/property_images/3289803/52969576/medium_EB-LP9803.jpeg" /></a></div>
+    <div class="caption">
+      <p class="primary-color">Tuxtla Gutiérrez Centro, Tuxtla Gutiérrez</p>
+      <p>Oficina, 2 baños</p>
+      <h3>$4,500</h3>
+      <a class="btn btn-primary btn-block" role="button" href="https://www.kwreal.mx/property/renta-de-consultorios-u-oficinas-frente-al-hospital-pascacio-gamboa">Ver detalles »</a>
+    </div>
+  </div>
+</div>
+
+                    </div>
+                </div>
+              </div>
+
+        </div>
+
+        <a class="left carousel-control" href="#featured_properties" role="button" data-slide="prev">
+          <span class="arrow arrow-left"></span>
+        </a>
+        <a class="right carousel-control" href="#featured_properties" role="button" data-slide="next">
+          <span class="arrow arrow-right"></span>
+        </a>
+      </div>
+    <!-- END -->
+  </div>
+</div>
+
+
+
+  </body>
+</html>
